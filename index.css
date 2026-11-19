@@ -1,0 +1,78 @@
+body {
+  background: #f7f5ef;
+  color: #233c47;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+a {
+  color: #22566b;
+}
+
+a:hover {
+  color: #a44f35;
+}
+
+.navbar a,
+.footer a {
+  text-decoration: none;
+}
+
+.brand-dot {
+  color: #c46b48;
+}
+
+.eyebrow {
+  color: #79513d;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  --bs-btn-bg: #244e60;
+  --bs-btn-border-color: #244e60;
+  --bs-btn-hover-bg: #173a4a;
+  --bs-btn-hover-border-color: #173a4a;
+}
+
+.home-image {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.featured {
+  background: #e7e1d3;
+}
+
+.category {
+  background: #fff;
+  border: 1px solid #deded5;
+}
+
+.sample-resource {
+  border-left: 3px solid #c46b48;
+  background: #e9efed;
+}
+
+.about {
+  background: #244e60;
+  color: #fff;
+}
+
+.about .eyebrow {
+  color: #f5d6b7;
+}
+
+.about a,
+.footer a {
+  color: inherit;
+}
+
+.footer {
+  background: #173a4a;
+  color: #fff;
+}
